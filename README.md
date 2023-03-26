@@ -13,7 +13,7 @@ docker-compose up --build
 # License
 
 
-ImageAPIGenerator is licensed under the MIT license. See LICENSE for more information.
+ImageAPIGenerator is licensed under the MIT license. See `ImageGeneratorAPI/LICENSE` for more information.
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
