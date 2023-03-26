@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  imagegeneratorfastapi:
+    container_name: imagegeneratorfastapi
+    build: .
+    working_dir: /code/app
+    command: uvicorn main:app --host 0.0.0.0 --reload
+    environment:
+      DEBUG: 1
+    volumes:
+      - ./app:/code/app
+    ports:
+      - 80:8000
+    restart: on-failure
